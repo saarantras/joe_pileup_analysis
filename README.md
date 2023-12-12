@@ -1,4 +1,6 @@
 [Write the background]
+[note that renames]
+[list of versions software for run]
 I want pile-up plots of H3K27me3 for promoters of “ALKBH1 -> up” ALKBH1-> down & neutral genes.
 
 thread 0:

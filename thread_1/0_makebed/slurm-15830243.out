@@ -1,0 +1,45 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+[NbConvertApp] Converting notebook makebed.ipynb to script
+[NbConvertApp] Writing 2114 bytes to makebed.py
+processingup_in_ko_deseq_ectoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_ko_deseq_ectoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_ko_deseq_esc_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_ko_deseq_esc_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_ko_endoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_ko_endoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_ko_mesoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_ko_mesoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_wt_deseq_ectoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_wt_deseq_ectoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_wt_deseq_esc_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_wt_deseq_esc_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_wt_endoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_wt_endoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
+processingup_in_wt_mesoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.csv
+retrieving data from biomart...
+writing up_in_wt_mesoderm_condition_wt_vs_alkbh1ko_abs_fc_gt_2_and_p_lt_10e-16.bed
