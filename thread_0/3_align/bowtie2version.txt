@@ -1,0 +1,7 @@
+/vast/palmer/apps/avx2/software/Bowtie2/2.4.2-GCCcore-10.2.0/bin/bowtie2-align-s version 2.4.2
+64-bit
+Built on r205u07n12.mccleary.ycrc.yale.edu
+Wed Nov  9 14:43:51 UTC 2022
+Compiler: gcc version 10.2.0 (GCC) 
+Options: -O2 -ftree-vectorize -march=native -fno-math-errno -fPIC -std=gnu++98 -O2 -ftree-vectorize -march=native -fno-math-errno -fPIC -std=gnu++98 -DPOPCNT_CAPABILITY -DWITH_TBB -std=c++11 -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}

@@ -1,0 +1,4 @@
+/home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005196_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005196_2_paired.fastq
+/home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005197_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005197_2_paired.fastq
+/home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005231_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005231_2_paired.fastq
+/home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005232_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005232_2_paired.fastq

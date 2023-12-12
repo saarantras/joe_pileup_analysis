@@ -1,0 +1,53 @@
+To execute Trimmomatic run: java -jar $EBROOTTRIMMOMATIC/trimmomatic-0.39.jar
+TrimmomaticPE: Started with arguments:
+ /home/mcn26/palmer_scratch/joe/data/chip/SRR14005196_1.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005196_2.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005196_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005196_1_unpaired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005196_2_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005196_2_unpaired.fastq ILLUMINACLIP:./adapters.fa:2:30:10 LEADING:30 TRAILING:30 MINLEN:1
+Using Long Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGGCTACATCTCGTATGC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+ILLUMINACLIP: Using 0 prefix pairs, 3 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 18334636 Both Surviving: 17831625 (97.26%) Forward Only Surviving: 3505 (0.02%) Reverse Only Surviving: 11377 (0.06%) Dropped: 488129 (2.66%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ /home/mcn26/palmer_scratch/joe/data/chip/SRR14005197_1.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005197_2.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005197_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005197_1_unpaired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005197_2_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005197_2_unpaired.fastq ILLUMINACLIP:./adapters.fa:2:30:10 LEADING:30 TRAILING:30 MINLEN:1
+Using Long Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGGCTACATCTCGTATGC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+ILLUMINACLIP: Using 0 prefix pairs, 3 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 7952229 Both Surviving: 7785383 (97.90%) Forward Only Surviving: 1843 (0.02%) Reverse Only Surviving: 3722 (0.05%) Dropped: 161281 (2.03%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ /home/mcn26/palmer_scratch/joe/data/chip/SRR14005231_1.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005231_2.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005231_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005231_1_unpaired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005231_2_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005231_2_unpaired.fastq ILLUMINACLIP:./adapters.fa:2:30:10 LEADING:30 TRAILING:30 MINLEN:1
+Using Long Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGGCTACATCTCGTATGC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+ILLUMINACLIP: Using 0 prefix pairs, 3 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 23762780 Both Surviving: 23356359 (98.29%) Forward Only Surviving: 2603 (0.01%) Reverse Only Surviving: 7743 (0.03%) Dropped: 396075 (1.67%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ /home/mcn26/palmer_scratch/joe/data/chip/SRR14005232_1.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005232_2.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005232_1_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005232_1_unpaired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005232_2_paired.fastq /home/mcn26/palmer_scratch/joe/data/chip/SRR14005232_2_unpaired.fastq ILLUMINACLIP:./adapters.fa:2:30:10 LEADING:30 TRAILING:30 MINLEN:1
+Using Long Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Using Long Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACGGCTACATCTCGTATGC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCC'
+Skipping duplicate Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGT'
+ILLUMINACLIP: Using 0 prefix pairs, 3 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 40701281 Both Surviving: 40637241 (99.84%) Forward Only Surviving: 8258 (0.02%) Reverse Only Surviving: 478 (0.00%) Dropped: 55304 (0.14%)
+TrimmomaticPE: Completed successfully

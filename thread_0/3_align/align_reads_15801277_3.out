@@ -1,0 +1,1 @@
+Running command: bowtie2 -x /gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome -1 /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005231_1_paired.fastq -2 /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005231_2_paired.fastq -S /home/mcn26/palmer_scratch/joe/data/trimmed/SRR14005231.sam
