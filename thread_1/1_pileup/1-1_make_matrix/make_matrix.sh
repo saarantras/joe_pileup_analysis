@@ -2,16 +2,16 @@
 #SBATCH --job-name=computematrix
 #SBATCH --output=%x_%A_%a.out
 #SBATCH --error=%x_%A_%a.err
-#SBATCH --time=01:00:00
-#SBATCH --mem=4G
-#SBATCH --cpus-per-task=1
-#SBATCH --array=1-TOTAL_COMBINATIONS
+#SBATCH --time=03:00:00
+#SBATCH --mem=128G
+#SBATCH --cpus-per-task=3
+#SBATCH --array=1-16
+#SBATCH -p ycga
 
 module load deepTools
 
-
 # Directories containing BED and BAM files
-bed_dir=""
+bed_dir="/home/mcn26/palmer_scratch/joe/data/de_beds"
 bam_dir="/home/mcn26/palmer_scratch/joe/data/bams"
 
 # Create arrays of BED and BAM files
@@ -45,5 +45,4 @@ computeMatrix reference-point --referencePoint TSS \
     -S $bam_file \
     -o $output_matrix
 
-
-echo "Processed BED file: $bed_file with BAM file: $bam_file. Output: $ou
+echo "Processed BED file: $bed_file with BAM file: $bam_file. Output: $output_matrix
