@@ -20,7 +20,7 @@ MATRIX_FILES=($(ls ${MATRIX_DIR}/*.gz))
 MATRIX_FILE=${MATRIX_FILES[$SLURM_ARRAY_TASK_ID - 1]}
 
 # Define output plot name
-OUTPUT_PLOT="${MATRIX_FILE%.matrix}_pileup.png"
+OUTPUT_PLOT="${MATRIX_FILE%.matrix}_heatmap.png"
 
 # Run the command to create the pileup plot
 plotHeatmap --matrix ${MATRIX_FILE} --outFileName ${OUTPUT_PLOT}
