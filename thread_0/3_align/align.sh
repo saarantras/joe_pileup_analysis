@@ -8,6 +8,8 @@
 #SBATCH --error=align_reads_%A_%a.err
 #SBATCH -p ycga
 
+# run generate_file_pairs.sh first !
+
 module load Bowtie2
 
 BOWTIE_INDEX="/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome"

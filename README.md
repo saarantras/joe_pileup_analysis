@@ -1,19 +1,47 @@
-[Write the background]
-[note that renames]
-[list of versions software for run]
+# Background
+
 I want pile-up plots of H3K27me3 for promoters of “ALKBH1 -> up” ALKBH1-> down & neutral genes.
 
-thread 0:
-download
-trim
-align
-bamcompar
-pileup
+[note that renames]
 
-thread 1:
-make bed files from gene sets
+# Software versions
 
----
+## Data
+
+Genome hg38
+
+## Software versions
+
+**deepTools**
+- plotHeatmap 3.5.1
+- computeMatrix 3.5.1
+- plotProfile 3.5.1
+- bamCoverage 3.5.1
+
+**bowtie2**
+> /vast/palmer/apps/avx2/software/Bowtie2/2.4.2-GCCcore-10.2.0/bin/bowtie2-align-s version 2.4.2
+> 64-bit
+> Built on r205u07n12.mccleary.ycrc.yale.edu
+> Wed Nov  9 14:43:51 UTC 2022
+> Compiler: gcc version 10.2.0 (GCC)
+> Options: -O2 -ftree-vectorize -march=native -fno-math-errno -fPIC -std=gnu++98 -O2 -ftree-vectorize -march=native -fno-math-errno -fPIC -std=gnu++98 -DPOPCNT_CAPABILITY -DWITH_TBB -std=c++11 -DNO_SPINLOCK -D> WITH_QUEUELOCK=1
+> Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+
+**samtools 1.16**
+- See `samtools.ver` for compilation details
+
+*picard 2.25.6-Java-11*
+
+**trimmomatic PE 0.39**
+
+**FastQC v0.11.9**
+
+**SRA-Toolkit**
+- "fasterq-dump" version 2.10.9
+
+Additionally, one script uses a conda environment, `joezone`. This can be reproduced using the `joezone.yml` file.
+
+# Sources
 
 data taken from :
 
