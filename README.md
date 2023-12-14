@@ -1,16 +1,20 @@
 # Background
 
-I want pile-up plots of H3K27me3 for promoters of “ALKBH1 -> up” ALKBH1-> down & neutral genes.
+Tyler Jensen performed RNA-seq on both WT and Alkbh1 KO hESC and populations of cells representing all three germ-layers. I subsequently analyzed these data, using Deseq2 & Enrichr to look for differentially enriched pathways. One hit was PRC, which deposits H3K27me3. This, and Jia et el. cited below suggeted that H3K27me3 may be involved in the differential regulation of genes. Therefore Joe Balowski suggested I make pile-up plots of H3K27me3 for promoters of “ALKBH1 -> up” ALKBH1-> down & neutral genes (where those gene-sets are taken from my previous analysis). This analysis is here.
 
-[note that renames]
+**thread_0** processes some publically available hESC H3k27me3 ChIP-seq data into bigwigs. 
 
-# Software versions
+**thread_1** produces heatmaps from these data plus gene-sets taken from the initial analysis of Tyler's data. 
+
+Note that data files were often re-named between steps.
+
+# Versions
 
 ## Data
 
 Genome hg38
 
-## Software versions
+## Software
 
 **deepTools**
 - plotHeatmap 3.5.1
@@ -18,19 +22,13 @@ Genome hg38
 - plotProfile 3.5.1
 - bamCoverage 3.5.1
 
-**bowtie2**
-> /vast/palmer/apps/avx2/software/Bowtie2/2.4.2-GCCcore-10.2.0/bin/bowtie2-align-s version 2.4.2
-> 64-bit
-> Built on r205u07n12.mccleary.ycrc.yale.edu
-> Wed Nov  9 14:43:51 UTC 2022
-> Compiler: gcc version 10.2.0 (GCC)
-> Options: -O2 -ftree-vectorize -march=native -fno-math-errno -fPIC -std=gnu++98 -O2 -ftree-vectorize -march=native -fno-math-errno -fPIC -std=gnu++98 -DPOPCNT_CAPABILITY -DWITH_TBB -std=c++11 -DNO_SPINLOCK -D> WITH_QUEUELOCK=1
-> Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+**bowtie2-align 2.4.2**
+- see bowtie2.ver for compilation details
 
 **samtools 1.16**
 - See `samtools.ver` for compilation details
 
-*picard 2.25.6-Java-11*
+**picard 2.25.6-Java-11**
 
 **trimmomatic PE 0.39**
 
